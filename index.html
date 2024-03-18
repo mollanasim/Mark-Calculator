@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="txtContainer">
+        <h1>Noakhali Science and Technology University</h1>
+        <h2>Elaborate Mark Sheet</h2>
+        <h3> Year: 3        Term: 2        FInal Examination,2023</h3>
+        <h3>Course Code: CSE3103           Course Title:Web Technology</h3>
+        <p>Institute of Information and Technology(B.Sc. in Software Engineering)</p>
+        <p>Examiner : Rafid Mostafiz</p>
+    </div>
+    <form action="save_totals.php" method="post">
+        <div class="tableContainer">
+            <table border="1">
+                <tr>
+                    <th rowspan="2">Student Roll</th>
+                    <th class="sub-header" colspan="4">1</th>
+                    <th class="sub-header" colspan="4">2</th>
+                    <th class="sub-header" colspan="4">3</th>
+                    <th class="sub-header" colspan="4">4</th>
+                    <th class="sub-header" colspan="4">5</th>
+                    <th class="sub-header" colspan="4">6</th>
+                    <th class="sub-header" colspan="4">7</th>
+                    <th class="sub-header" colspan="4">8</th>
+                    <th class="sub-header" colspan="4">9</th>
+                    <th class="Totall Marks" rowspan="2">Totall Marks</th>
+                </tr>
+                <tr>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>               
+                </tr>
+                <!-- 1st row -->
+                
+                    <tr class="row">
+                    <th rowspan="2"> <input type="text" name="rolls[]" value="MUH2025001M" /></th>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+    
+                    <th class="Totall Marks" rowspan="2" ><input type="text" class="totall" name="totals[]"></th>
+                </tr>
+                <tr>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>             
+                </tr>            
+    
+                <!-- 2nd row -->
+                    <tr class="row" name="roll2">
+                    <th rowspan="2"><input type="text" name="rolls[]" value="MUH2025002M" /></th>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+    
+                    <th class="Totall Marks" rowspan="2" ><input type="text" class="totall" name="totals[]"></th>
+                </tr>
+                <tr>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>             
+                </tr>
+                <!-- 3nd row -->
+                    <tr class="row">
+                    <th rowspan="2"><input type="text" name="rolls[]" value="MUH2025003M" /></th>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+    
+                    <th class="Totall Marks" rowspan="2" ><input type="text" class="totall" name="totals[]"></th>
+                </tr>
+                <tr>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>             
+                </tr>
+                <!-- 4nd row -->
+                    <tr class="row">
+                    <th rowspan="2"><input type="text" name="rolls[]" value="MUH2025004M" /></th>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+    
+                    <th class="Totall Marks" rowspan="2" ><input type="text" class="totall" name="totals[]"></th>
+                </tr>
+                <tr>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>             
+                </tr>
+    
+                <!-- 5th row -->
+                    <tr class="row">
+                    <th rowspan="2"><input type="text" name="rolls[]" value="MUH2025005M" /></th>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+    
+                    <th class="Totall Marks" rowspan="2" ><input type="text" class="totall" name="totals[]"></th>
+                </tr>
+                <tr>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>             
+                </tr>
+    
+                <!-- 6th row -->
+                    <tr class="row">
+                    <th rowspan="2"><input type="text" name="rolls[]" value="MUH2025006M" /></th>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+    
+                    <th class="Totall Marks" rowspan="2" ><input type="text" class="totall" name="totals[]"></th>
+                </tr>
+                <tr>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>             
+                </tr>
+    
+                <!-- 7th row -->
+                    <tr class="row">
+                    <th rowspan="2"><input type="text" name="rolls[]" value="MUH2025007M" /></th>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+                    <td><input type="number" class="input-field"></td>
+    
+                    <th class="Totall Marks" rowspan="2" ><input type="text" class="totall" name="totals[]"></th>
+                </tr>
+                <tr>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>
+                    <th class="sub-header" colspan="4"></th>             
+                </tr>
+                
+                
+            </table>
+            <input type="submit" value="Submit" class="btn">
+            <!-- <button type="submit" name="submit" class="btn">Save Totals</button> -->
+        </div>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+.txtContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{
+    /* padding: 10px; */
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    height: 25px;
+    width: 120px;
+    outline: none;
+    
+    /* border-radius: 5px; */
+}
+input[type="text"]:focus{
+    outline: none;
+}
+ input[type="number"] {
+     /* padding: 10px; */
+     font-size: 15px;
+     border: none;
+     background: transparent;
+     cursor: pointer;
+     height: 15px;
+     width: 30px;
+     
+     /* border-radius: 5px; */
+ }
+ input[type="number"]:focus {
+     outline: none;
+     /* Remove the default focus outline */
+     border-color: #007bff;
+     box-shadow: 0 0 5px #007bff;
+ }
+
+ input[type="number"]::-webkit-inner-spin-button,
+ input[type="number"]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+     appearance: none;
+     margin: 0;
+ }
+td,th{
+    width: 5px;
+    text-align: center;
+    padding: 5px;
+ }
+ th{
+    background-color: antiquewhite;
+ }
+ .btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(175, 255, 55);
+    color: rgb(12, 10, 10);
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ .btn:hover{
+    background-color: #007bff;
+ }
